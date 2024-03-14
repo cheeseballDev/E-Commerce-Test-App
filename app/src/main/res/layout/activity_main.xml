@@ -100,7 +100,7 @@
                     android:drawableStart="@drawable/icon_search"
                     android:ems="10"
                     android:hint="Search for any gun"
-                    android:inputType="text"
+                    android:onClick="searchBtn"
                     android:padding="8dp"
                     android:textSize="16sp" />
 
