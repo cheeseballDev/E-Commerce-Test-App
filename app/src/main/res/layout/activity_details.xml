@@ -20,7 +20,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/activityDetails"
+                    android:id="@+id/favouriteBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -42,10 +42,10 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/backBtn" />
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/backBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -149,8 +149,10 @@
                 android:id="@+id/detailsAddToCart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 android:textColor="@color/white"
                 android:background="@drawable/button_banner"
+                android:textSize="16sp"
                 android:text="Add to cart" />
 
 
