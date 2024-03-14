@@ -334,7 +334,6 @@
             android:background="@drawable/background_search_text"
             android:layout_height="60dp"
             android:padding="4dp"
-            android:layout_margin="32dp"
             >
 
             <LinearLayout
