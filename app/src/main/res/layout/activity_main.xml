@@ -354,6 +354,14 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/icon_home"
                         android:onClick="homeBtn"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HOME"
+                        android:textAlignment="center"
+                        />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -366,11 +374,15 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/icon_favourite" />
+                        android:src="@drawable/icon_favourite"
+                        android:onClick="favouriteBtn"
+                        />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="FAVOURITE"
+                        android:textAlignment="center"
                         />
 
                 </LinearLayout>
@@ -385,7 +397,14 @@
                         android:id="@+id/imageView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:src="@drawable/icon_cart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CART"
+                        android:textAlignment="center"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -398,7 +417,14 @@
                         android:id="@+id/imageView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:src="@drawable/icon_profile" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="USER"
+                        android:textAlignment="center"
+                        />
 
                 </LinearLayout>
             </LinearLayout>
