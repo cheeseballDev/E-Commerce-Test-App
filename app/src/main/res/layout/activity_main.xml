@@ -134,7 +134,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:text="Discount 20% \nFor Rifles"
-                    android:textColor="@color/myrtiegreen"
+                    android:textColor="@color/english_violet"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
