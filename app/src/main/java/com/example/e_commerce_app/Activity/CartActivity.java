@@ -1,14 +1,16 @@
-package com.example.e_commerce_app;
+package com.example.e_commerce_app.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DetailsActivity extends AppCompatActivity {
+import com.example.e_commerce_app.R;
+
+public class CartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_details);
+        setContentView(R.layout.activity_cart);
     }
 }
