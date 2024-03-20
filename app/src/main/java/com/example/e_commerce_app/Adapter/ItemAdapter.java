@@ -1,6 +1,8 @@
 package com.example.e_commerce_app.Adapter;
 
 import android.content.Context;
+import android.text.Layout;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -22,23 +24,27 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.Viewholder> {
     @NonNull
     @Override
     public ItemAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+        binding = ViewholderListBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
+
+        return new Viewholder(binding);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ItemAdapter.Viewholder holder, int position) {
-
+        binding.viewholderProductName.setText(items.get(position).get);
+        binding.viewholderImageID.setId();
+        binding.viewholderProductCategory.setText();
+        binding.viewholderProductPrice.setText();
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return items.size();
     }
 
     public class Viewholder extends RecyclerView.ViewHolder {
-        public Viewholder(@NonNull View itemView) {
-
-            super(itemView);
+        public Viewholder(ViewholderListBinding binding) {
+            super(binding.getRoot());
         }
     }
 }
